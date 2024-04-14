@@ -1,7 +1,7 @@
 .home-main-container{
     height: 300vh;
     width: 100vw;
-    background-image: url('D:\fullstackwebdevcourse\movie watching system\backend projects\tempreact\public\movie.jpg');
+    /* background-image: url('\movie.jpg'); */
     
     /* Set background size and properties if needed */
     background-size: cover;
