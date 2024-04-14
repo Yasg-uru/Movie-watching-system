@@ -1,12 +1,6 @@
 const mongoose=require('mongoose')
 const connectDatabase=()=>{
-    mongoose.connect("mongodb://127.0.0.1:27017/mymovie",{
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-       
-        
-       
-    }).then((data)=>{
+    mongoose.connect(process.env.MONGO_URL).then((data)=>{
         console.log(`mongo database is connected with server:${data.connection.host}`)
     }).catch((error)=>{
         console.log("we are unable to connect mongo database ")
