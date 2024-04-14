@@ -1,9 +1,7 @@
 .home-main-container{
     height: 300vh;
     width: 100vw;
-    /* background-image: url('\movie.jpg'); */
-    
-    /* Set background size and properties if needed */
+   
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
