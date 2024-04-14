@@ -27,7 +27,7 @@ const Getalluser = () => {
 
   const handledelete=async(id)=>{
 try {
-  const response=await axios.delete(`http://localhost:4000/api/user/delete/user/${id}`,{
+  const response=await axios.delete(`https://movie-watching-system-w3oq.vercel.app/api/user/delete/user/${id}`,{
     withCredentials:true
   })
   console.log("deleted successfully")

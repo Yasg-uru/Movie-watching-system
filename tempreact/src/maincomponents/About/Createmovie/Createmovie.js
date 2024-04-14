@@ -17,7 +17,7 @@ const Createmovie = () => {
        formdata.append('description',description);
        formdata.append('imageurl',imageurl);
        formdata.append('vediourl',vediourl);
-       const resposne =await axios.post('http://localhost:4000/api/movie/createmovie',formdata,{
+       const resposne =await axios.post('https://movie-watching-system-w3oq.vercel.app/api/movie/createmovie',formdata,{
         withCredentials:true
        })
        console.log("created movie ")

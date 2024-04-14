@@ -8,7 +8,7 @@ const Deleteuser = () => {
 e.preventDefault();
 try {
     
-    const response=await axios.post(`http://localhost:4000/api/user/update/role/${id}`,{role},{
+    const response=await axios.post(`https://movie-watching-system-w3oq.vercel.app/api/user/update/role/${id}`,{role},{
       withCredentials:true
     })
     console.log("this is a response in update user role :"+response.data)

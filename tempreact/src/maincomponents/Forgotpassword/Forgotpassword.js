@@ -8,7 +8,7 @@ function Forgotpassword() {
    try {
     
     const response = await axios.post(
-      "http://localhost:4000/api/user/password/forgot",
+      "https://movie-watching-system-w3oq.vercel.app/api/user/password/forgot",
       {
         email
       },{

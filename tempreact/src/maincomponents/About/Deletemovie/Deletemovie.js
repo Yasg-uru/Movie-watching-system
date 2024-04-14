@@ -8,7 +8,7 @@ const Deletemovie = () => {
     e.preventDefault();
     try {
       const response = await axios.delete(
-        `http://localhost:4000/api/movie/deletemovie/${id}`,{
+        `https://movie-watching-system-w3oq.vercel.app/api/movie/deletemovie/${id}`,{
           withCredentials:true
         }
       );

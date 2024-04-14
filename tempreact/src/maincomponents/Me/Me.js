@@ -30,7 +30,7 @@ const Me = () => {
   };
   const fetchdata = async () => {
     try {
-      const response = await axios.get("http://localhost:4000/api/user/me", {
+      const response = await axios.get("https://movie-watching-system-w3oq.vercel.app/api/user/me", {
         withCredentials: true,
       });
       const { user } = response.data;

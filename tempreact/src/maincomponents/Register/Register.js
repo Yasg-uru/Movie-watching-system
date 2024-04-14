@@ -17,7 +17,7 @@ function Registeruser() {
     formData.append("profile", profile);
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/user/register",
+        "https://movie-watching-system-w3oq.vercel.app/api/user/register",
         formData,{
           withCredentials:true
         }
